@@ -16,6 +16,6 @@ if [ $USAGE -ge 90 ];then
 elif [ $USAGE -ge 80 ];then
 	echo "$TIMESTAMP - WARNING - Disk usage is $USAGE" >> usage.log 
 else
-	echo "Healthy" >> usage.log
+	echo "$TIMESTAMP - Healthy" >> usage.log
 fi
 
