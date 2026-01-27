@@ -7,7 +7,7 @@ if [ ! -f "$SCRIPT_NAME" ]; then
 	exit 2
 fi
 
-chmod +x "$SCRIP_NAME"
+chmod +x "$SCRIPT_NAME"
 
 echo "$TIMESTAMP - $SCRIPT_NAME EXECUTING...." >> "$LOG_FILE"
 
