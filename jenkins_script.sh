@@ -2,6 +2,7 @@
 
 TIMESTAMP="$(date "+%Y-%m-%d %H:%M:%S")"
 LOG_FILE="$WORKSPACE/script.log"
+TEST="$WORKSPACE/test.txt"
 if [ ! -f "$SCRIPT_NAME" ]; then
 	echo "$TIMESTAMP - FILE DOESN'T EXIST " >> "$LOG_FILE"
 	exit 2
@@ -11,7 +12,7 @@ chmod +x "$SCRIPT_NAME"
 
 echo "$TIMESTAMP - $SCRIPT_NAME EXECUTING...." >> "$LOG_FILE"
 
-./"$SCRIPT_NAME"	
+./"$SCRIPT_NAME" >> "$TEST"	
 
 STATUS=$?
 
