@@ -1,5 +1,4 @@
 # DevOps Bash Scripts
-
 This repository contains production-style Bash scripts commonly used in DevOps and Linux system administration.
 
 ## Scripts Included
