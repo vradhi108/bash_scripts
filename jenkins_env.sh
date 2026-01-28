@@ -1,0 +1,9 @@
+#!/bin/bash
+
+LOG_FILE="$WORKSPACE/${JOB_NAME}_${BUILD_NUMBER}.log"
+
+echo "JOB NAME - $JOB_NAME" >> "$LOG_FILE"
+echo "BUILD NUMBER - $BUILD_NUMBER" >> "$LOG_FILE"
+echo "NODE NAME - $NODE_NAME" >> "$LOG_FILE"
+
+cat "$LOG_FILE"
