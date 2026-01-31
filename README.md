@@ -3,8 +3,8 @@ This repository contains production-style Bash scripts commonly used in DevOps a
 
 ## Scripts Included
 
- **backup.sh**  
-  Automates compressed backups of application data and removes old backups.
+- **backup.sh**  
+  automates compressed backups of application data and removes old backups.
 
 - **disk_monitor.sh**  
   Monitors disk usage and logs warnings or critical alerts.
